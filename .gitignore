@@ -1,0 +1,5 @@
+#ignora los archivos que terminan en .map 
+*.map 
+#ignore la carpeta scss 
+scss/
+scss/-boostrap/ 

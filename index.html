@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto CV</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm">
+        <div class="container-fluid">
+            <!--Boton Collapse-->
+            <a href="#" class="navbar-brand">Mi CV</a>
+            <button class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Lista de elementos-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-1">
+                        <a href="#hero" class="navlink">Inicio</a>
+                    </li>
+                    <li class="nav-item mx-1 rounded"><a href="#info " class="nav-link px-2">Informacion personal</a>
+                    </li>
+                    <li class="nav-item mx-1 rounded"><a href="#experencia" class="nav-link px-2">Experiencia</a>
+                    </li>
+                    <li class="nav-item mx-1 rounded"><a href="#education" class="nav-link px-2">Educacion</a>
+                    </li>
+                    <li class="nav-item mx-1 rounded"><a href="#skills" class="nav-link px-2">Habilidades</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Hero Section-->
+    <section id="hero" class="hero">
+        <h1>Tu Nombre</h1>
+        <p>Desarrollador Full Stack|Maquetador Web</p>
+    </section>
+    <!--Informacion personal-->
+    <section id="info" class="info-section bg-light">
+        <div class="container">
+            <h2 class="section-title">Informacion personal</h2>
+            <div class="row">
+                <!--Foto perfil-->
+                <div class="col-md-4 d-flex-justify.content-center mb-3">
+                    <img src="https://placehold.co/200x200" alt="Foto de perfil" class="img-fluid rounded-circle"/>
+                </div>
+                <!--Datos-->
+                <div class="col-md-8">
+                    <ul class="list-group">
+                    <li class="list-group-item"><strong>Nombre:</strong>Tu nombre
+                    </li>
+                    <li class="list-group-item"><strong>Correo:</strong>nombre.ejemplo@ejemplo.com</li>
+                    <li class="list-group-item"><strong>Telefono:</strong> +54 123 456 789</li>
+                    <li class="list-group-item"><strong>Ubicacion</strong> Cordoba, Argentina</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Experiencia laboral-->
+    <section id="experencia" class="experencie-section">
+        <h2 class="section-title">Experiencia laboral</h2>
+        <ul class="list-gruop">
+            <li class="list-item-group"><strong>Desarrollador Full Stack</strong> - Empresa X (2020-Actualidad)</li>
+            <li class="list-item-group"><strong>Soporte Tecnico</strong> - Empresa Y (2018-2020)</li>
+        </ul>
+    </section>
+    <!--Educacion-->
+    <section id="education" class="education-section bg-light">
+        <h2 class="section-title">Educacion</h2>
+        <ul class="list-gruop">
+            <li class="list-item-group"><strong>Ingenieria en sistemas</strong> - UTN (2015-2020)</li>
+            <li class="list-item-group"><strong>Certificado de desarrollo web</strong> - Platzi (2019)</li>
+        </ul>
+    </section>
+    <!--Habilidades-->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list gruop">
+                        <li class="list gruop-item">JavaScript</li>
+                        <li class="list gruop-item">Node js</li>
+                        <li class="list gruop-item">React</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list gruop">
+                        <li class="list gruop-item">HTML/CSS</li>
+                        <li class="list gruop-item">MongoDB</li>
+                        <li class="list gruop-item">Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src=""></script>
+</body>
+</html>
